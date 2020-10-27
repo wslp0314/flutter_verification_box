@@ -142,7 +142,6 @@ class _VerificationBox extends State<VerificationBox> {
       },
       child: Stack(
         children: <Widget>[
-          _buildTextField(),
           Positioned.fill(
               child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -169,6 +168,7 @@ class _VerificationBox extends State<VerificationBox> {
               );
             }),
           )),
+          _buildTextField(),
         ],
       ),
     );

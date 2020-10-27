@@ -124,7 +124,8 @@ class VerificationBoxItem extends StatelessWidget {
   ///
   _buildText() {
     return Text(
-      '$data',
+      // ●'$data',
+      data.length >0?"●":"",  //修改了显示  ●
       style: textStyle,
     );
   }
